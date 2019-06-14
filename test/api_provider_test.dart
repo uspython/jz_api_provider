@@ -140,8 +140,7 @@ void main() {
     final regExp = RegExp(
         r'<\s*th>Exception Value:<\s*\/\s*th>\s*<td><pre>(.*?)<\s*\/\s*pre><\/td>');
     final exp = regExp;
-    final str =
-        '''https://api-investor-qa.city-home.cn/order/month/summary/</td>
+    final str = '''</td>
 	    </tr>
 	    <tr>
 	      <th>Django Version:</th>
